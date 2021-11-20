@@ -2,13 +2,16 @@ import React, { FC } from "react";
 import styled from "styled-components";
 import Link from "next/Link";
 import styles from "../styles/Navbar.module.css";
+import { FaHome } from "react-icons/fa";
 
 const Navbar: FC = () => {
   return (
     <div className={styles.container}>
       <div>
         <Link href="/">
-          <a className={styles.a}>Bean</a>
+          <FaHome size="2em" className={styles.a}>
+            Bean
+          </FaHome>
         </Link>
       </div>
 
