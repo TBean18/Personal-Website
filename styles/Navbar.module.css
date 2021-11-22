@@ -1,8 +1,8 @@
-.a {
+.nav-links {
   padding: 0em 2em;
   font-size: larger;
 }
-.a:hover {
+.nav-links:hover {
   color: blue;
 }
 
